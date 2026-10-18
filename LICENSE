@@ -1,3 +1,101 @@
+DIY-telescope-focuser - Software licensing
+=========================================
+
+Licence identifier for the combined driver: GPL-3.0-only
+
+The combined INDI DRV8833 focuser driver is distributed under the GNU
+General Public License, version 3 only. Original project-specific software
+contributions are licensed under the same terms.
+
+Third-party material retains its original copyright notices and licence
+terms, including any permissions to use individual components separately
+under those terms. The project-level declaration does not replace those
+component licences or claim ownership of their code. Existing notices in
+source files remain applicable.
+
+This declaration covers software and associated build files. It does not
+grant a licence to photographs, videos, or separate hardware designs.
+
+The complete GPLv3, LGPLv2.1, and Apache-2.0 texts follow the component
+notices below. The examples in their "How to Apply" sections are part of
+the standard licence texts and are not project-specific licence grants.
+
+Upstream components and attribution
+==================================
+
+INDI driver ancestry
+--------------------
+Source: https://github.com/sywong2000/indi-gpio_pwm_focus
+Original licence: GNU Lesser General Public License, version 2.1 or later.
+The derived GPIO_DRV8833_Focuser.cpp and GPIO_DRV8833_Focuser.h retain:
+  Copyright (C) 2016 Piotr Dlugosz
+  Copyright (C) 2020 Stephen Wong
+
+Stepper implementation
+----------------------
+Sources: https://github.com/abewieland/RPI-Stepper
+         https://github.com/arduino-libraries/Stepper
+Original licence: GNU Lesser General Public License, version 2.1 or later.
+Raspberry Pi adaptation by Abe Wieland.
+Original Arduino library notices:
+  Copyright (c) Arduino LLC. All right reserved.
+  Copyright (c) Sebastian Gassner. All right reserved.
+  Copyright (c) Noah Shibley. All right reserved.
+These upstream terms apply to the imported Stepper code, including the
+code from which the driver's Stepper.cpp and Stepper.h were adapted.
+
+bcm2835 library, version 1.71
+----------------------------
+Source: https://www.airspayce.com/mikem/bcm2835/
+Original release: https://www.airspayce.com/mikem/bcm2835/bcm2835-1.71.tar.gz
+Author: Mike McCauley
+  Copyright (C) 2011-2013 Mike McCauley
+Open-source licence: GNU General Public License, version 3.
+The upstream also offers commercial licensing separately. No commercial
+licence is granted by this file.
+
+CMake helpers
+-------------
+indi-gpio_drv8833_focus/cmake_modules/FindINDI.cmake contains an Apache
+License, version 2.0 notice and the following embedded BSD notice:
+  Copyright (c) 2011-2013, julp
+  Copyright (c) 2017-2019 Jasem Mutlaq
+  Distributed under the OSI-approved BSD License
+Both existing notices remain applicable to the material they cover.
+
+indi-gpio_drv8833_focus/cmake_modules/UnityBuild.cmake carries the following
+BSD notice and terms, reproduced from that file:
+
+Copyright (c) 2009-2012 Christoph Heindl
+Copyright (c) 2015 Csaba Kertész (csaba.kertesz@gmail.com)
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+   * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+   * Neither the name of the <organization> nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+========================================================================
+Complete GPLv3 licence text
+========================================================================
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
