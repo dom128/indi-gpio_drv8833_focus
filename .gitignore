@@ -1,0 +1,13 @@
+# Compilation files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+
+Makefile
+config.h
+indi_gpio_drv8833_focus.xml
+indi_gpio_drv8833_focus
+
+*.o
+*.obj
