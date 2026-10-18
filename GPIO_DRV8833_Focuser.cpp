@@ -1,4 +1,16 @@
 /*
+ * Project modifications to GPIO_DRV8833_Focuser.cpp by dom128, 2022-02-24:
+ * Adapted the GPIO PWM focuser for DRV8833 stepper-motor control.
+ * Updated GPIO configuration and integrated Stepper initialization,
+ * speed, movement and motor-release handling.
+ *
+ * These project modifications are available under the GNU Lesser General
+ * Public License, version 2.1 or (at your option) any later version,
+ * matching the original component licence in the header below.
+ * See LICENSE for licence texts and CHANGES.md for change details.
+ */
+
+/*
   INDI Driver for gpioDRV8833
 
   Copyright (C) 2016 Piotr Dlugosz

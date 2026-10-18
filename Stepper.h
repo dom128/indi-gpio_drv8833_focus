@@ -1,4 +1,14 @@
 /*
+ * Project modifications to Stepper.h by dom128, 2022-02-24:
+ * Added the public Stepper::release() declaration and its comment.
+ *
+ * These project modifications are available under the GNU Lesser General
+ * Public License, version 2.1 or (at your option) any later version,
+ * matching the original component licence in the header below.
+ * See LICENSE for licence texts and CHANGES.md for change details.
+ */
+
+/*
  * Stepper.h - Stepper library for Raspberry Pi - Version 1.0
  *
  * Modified for raspberry pi (1.0) by Abe Wieland

@@ -1,4 +1,15 @@
 /*
+ * Project modifications to Stepper.cpp by dom128, 2022-02-24:
+ * Added Stepper::release() to set motor-control GPIO outputs LOW.
+ * Also added a comment and adjusted whitespace around Stepper::step().
+ *
+ * These project modifications are available under the GNU Lesser General
+ * Public License, version 2.1 or (at your option) any later version,
+ * matching the original component licence in the header below.
+ * See LICENSE for licence texts and CHANGES.md for change details.
+ */
+
+/*
  * Stepper.cpp - Stepper library for Raspberry Pi - Version 1.0
  *
  * Modified for raspberry pi (1.0) by Abe Wieland
